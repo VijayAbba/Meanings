@@ -35,7 +35,7 @@ export default function Home() {
       title: "dictionary",
     },
     {
-      web: `https://www.thesaurus.com/browse/{cloze}`,
+      web: `https://www.thesaurus.com/browse/${cloze}`,
       id: 4,
       title: "thesaurus",
     },
