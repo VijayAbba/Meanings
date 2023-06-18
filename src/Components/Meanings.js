@@ -25,38 +25,43 @@ export default function Meanings() {
       title: "dictionary",
     },
     {
-      web: `https://www.vocabulary.com/dictionary/${cloze}`,
+      web: `https://www.thesaurus.com/browse/{cloze}`,
       id: 4,
+      title: "thesaurus",
+    },
+    {
+      web: `https://www.vocabulary.com/dictionary/${cloze}`,
+      id: 5,
       title: "vocabulary",
     },
     {
       web: `https://www.urbandictionary.com/define.php?term=${cloze}`,
-      id: 5,
+      id: 6,
       title: "urbandictionary",
     },
     {
       web: `https://en.wiktionary.org/wiki/${cloze}`,
-      id: 6,
+      id: 7,
       title: "wiktionary",
     },
     {
       web: `https://www.thefreedictionary.com/${cloze}`,
-      id: 7,
+      id: 8,
       title: "thefreedictionary",
     },
     {
       web: `https://www.wordhippo.com/what-is/another-word-for/${cloze}.html`,
-      id: 8,
+      id: 9,
       title: "wordhippo",
     },
     {
       web: `https://visuwords.com/${cloze}`,
-      id: 9,
+      id: 10,
       title: "visuwords",
     },
     {
       web: `https://www.pexels.com/search/${cloze}`,
-      id: 10,
+      id: 11,
       title: "pexels",
     },
   ];
