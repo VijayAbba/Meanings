@@ -78,7 +78,7 @@ export default function Meanings() {
             }
             scrolling="yes"
             title={eachWeb.title}
-            className="h-[580px] w-[95vw] md:w-[440px] lg:w-[540px] md:m-3 drop-shadow-2xl text-xs rounded-md border-8 md:border-4 border-amber-300"
+            className="h-[580px] w-[95vw] md:w-[40vw] md:m-3 drop-shadow-2xl text-xs rounded-md border-8 md:border-4 border-amber-300"
             src={eachWeb.web}
           ></iframe>
         ))}
